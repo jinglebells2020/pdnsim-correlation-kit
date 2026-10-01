@@ -1,0 +1,73 @@
+(footprint "ThermocouplePad_2.8x5.0mm"
+	(version 20241229)
+	(generator "pdnsim_synth")
+	(generator_version "1")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "543cd188-0591-436f-b7e3-27f2bded27ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ThermocouplePad_2.8x5.0mm"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "b330c24d-3b43-474e-b131-18a96b030f20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b44919b-c065-402b-972e-0538fcecb66c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdaf5653-f866-4d4b-9c86-bc99c497a6de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.4 2.5) (xy 1.4 -2.5) (xy -1.4 -2.5) (xy -1.4 2.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "9c38e2af-e691-442c-bc1c-eb658fa46e7d")
+	)
+	(embedded_fonts no)
+)

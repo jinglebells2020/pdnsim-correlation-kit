@@ -1,0 +1,42 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.9-9.0.9~ubuntu24.04.1*%
+%TF.ProjectId,DC-B,44432d42-2e6b-4696-9361-645f70636258,C*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMFreePoly0*
+4,1,5,1.500000,-1.500000,-1.500000,-1.500000,-1.500000,1.500000,1.500000,1.500000,1.500000,-1.500000,1.500000,-1.500000,$1*%
+G04 Aperture macros list end*
+%ADD10FreePoly0,0.000000*%
+%ADD11C,3.200000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,TK1_W2*%
+X128495000Y-95530000D03*
+%TD*%
+%TO.C,TK2_W2*%
+X133005000Y-95530000D03*
+%TD*%
+%TO.C,TK3_W2*%
+X61300000Y-131400000D03*
+%TD*%
+D11*
+%TO.C,H1*%
+X54800000Y-42100000D03*
+%TD*%
+%TO.C,H2*%
+X145860000Y-42100000D03*
+%TD*%
+%TO.C,H3*%
+X54800000Y-133160000D03*
+%TD*%
+%TO.C,H4*%
+X145860000Y-133160000D03*
+%TD*%
+M02*

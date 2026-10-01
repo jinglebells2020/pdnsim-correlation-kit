@@ -1,0 +1,60 @@
+(footprint "ForcePad_3.0x2.0mm"
+	(version 20241229)
+	(generator "pdnsim_synth")
+	(generator_version "1")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "c91145f4-660d-4632-9578-5f60ed1b7d41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ForcePad_3.0x2.0mm"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "6ab112fc-8463-4175-837a-77d749e79459")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed242d7f-e907-4cc4-ac9d-1d385995ee2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31f6f014-f137-4f18-918c-cf91cd61683a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5a4f8930-81ea-452a-9f60-5e018efc06f1")
+	)
+	(embedded_fonts no)
+)

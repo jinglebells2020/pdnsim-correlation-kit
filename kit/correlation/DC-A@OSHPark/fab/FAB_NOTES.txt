@@ -1,0 +1,19 @@
+pdnsim DC correlation kit - design DC-A rev C - variant DC-A@OSHPark - fabrication notes
+
+These boards are 4-wire test coupons: their copper is measured to about 0.1 %. Build them exactly as drawn. Nothing on them is a measurement until they are measured.
+
+OSH Park 2 Layer Prototype service: 1 oz copper, 1.6 mm, ENIG, purple solder mask and white silkscreen on both sides; the service has no options and reads no notes. This file records what the boards are expected to be.
+
+Upload:
+* This folder's Gerbers and drill files (zipped), or the board file DC-A.kicad_pcb (its zone fills are KiCad's own). Check the rendered layers before ordering: 2 copper layers, both masks with openings only at the probe pads, the thickness islands TK1-TK3, the RTD thermocouple pad and the mounting holes (every via, witness vias included, tented), both silkscreens, outline 99.06 x 99.06 mm, four 3.2 mm unplated holes, vias 0.30 and 0.50 mm.
+* Quantity 3 (one set of three).
+* Serial numbers: OSH Park prints none; write them by hand in the 2 x 10 mm white square (O-01, O-02, O-03).
+
+Expected (OSH Park's published 2-layer stackup): copper 1.4 mil (35.6 um), via plating 1 mil (25.4 um), core 60 mil (1.524 mm), ENIG; via tenting 'not guaranteed' (a leaky tent may put nickel into a barrel: check on the microsection).
+
+Board facts:
+* Board: FR-4, 2 copper layers, 99.06 x 99.06 mm, 1.63 mm nominal (1.6 mm ordered), quantity 3.
+* Copper (finished, nominal): 35.56 / 35.56 um top to bottom (1oz outer).
+* Plated holes: every plated hole is a VIA; the drill file's sizes (0.30 and 0.50 mm) are finished hole sizes, the fab's usual convention: do not change them. Via lands 0.75 and 1.00 mm as drawn (no annular-ring enlargement). Nominal barrel plating 25.4 um (the fab's published value). The four 3.2 mm holes are unplated (NPTH) mounting holes with no copper around them.
+* Every via is covered by solder mask on both sides in the Gerbers: TENTED, not plugged, not filled.
+* Do NOT modify copper: no teardrops, no copper thieving (each layer carries its own floating balancing copper), no filling or merging of copper gaps (same-net gaps of 0.25 mm or more are intentional), no added or removed via pads.

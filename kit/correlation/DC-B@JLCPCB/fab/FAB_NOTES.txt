@@ -1,0 +1,26 @@
+pdnsim DC correlation kit - design DC-B rev C - variant DC-B@JLCPCB - fabrication notes
+
+These boards are 4-wire test coupons: their copper is measured to about 0.1 %. Build them exactly as drawn. Nothing on them is a measurement until they are measured.
+
+JLCPCB disregards English text inside the upload zip: the order-form settings and the PCB Remark below are what counts (kit/correlation/ORDERING.md lists every field). This file records what was asked for.
+
+Order form:
+* Base material FR-4; layers 4; dimensions 99.06 x 99.06 mm; PCB qty 5; PCB thickness 1.6 mm.
+* Outer copper weight: 1 oz. Inner copper weight 0.5 oz.
+* Layer stackup: JLC04161H-7628 (JLCPCB's published 1.6 mm build: prepreg 7628 0.2104 mm / core 1.065 mm / prepreg 7628 0.2104 mm, inner copper 0.0152 mm). Layer sequence: F.Cu = L1 (*.gtl), In1.Cu = L2 (*.g1), In2.Cu = L3 (*.g2), B.Cu = L4 (*.gbl).
+* Surface finish: ENIG. Every pad is a spring-probe contact area, which JLCPCB's form excludes for OSP; NOT HASL (solder in open via barrels changes their resistance).
+* Solder mask colour: green; silkscreen white.
+* Via covering: Plugged (the form offers no Tented on 4 layers): every via (0.30 and 0.50 mm holes) plugged with solder mask ink; a via JLCPCB cannot ink-plug (its 0.35 mm-from-pad rule) tented, never epoxy- or copper-filled, never open.
+* Mark on PCB: 2D barcode -> Number only (serial number), Specify Position: the 2 x 10 mm solid silkscreen square at the top edge of the front; prefix B-, no unique number, start 0001. No order number (JLCPCB no longer prints one; the boards carry no 'JLCJLCJLCJLC').
+* Electrical test: flying probe (the free random test is enough).
+* Confirm Production File: yes (compare the production Gerbers with these: copper unchanged, via lands 0.70 and 0.90 mm as drawn (reject an annular-ring enlargement), no teardrops or thieving, every via plugged with ink or tented: none open, none epoxy- or copper-filled).
+
+PCB Remark:
+Test coupon for 4-wire resistance measurement: do not modify copper (no teardrops, no copper thieving, do not fill or merge gaps, keep every via pad at its drawn diameter and every inner-layer pad removal as drawn). Vias: plug every via (the 0.30 and 0.50 mm holes; every plated hole is a via) with solder mask ink (the 4-layer default); no copper or epoxy fill in any via; tent any via that cannot be ink-plugged, never leave it open; no ink on the pad openings. Serial number in the 2x10 mm silkscreen square.
+
+Board facts:
+* Board: FR-4, 4 copper layers, 99.06 x 99.06 mm, 1.61 mm nominal (1.6 mm ordered), quantity 5.
+* Copper (finished, nominal): 35 / 15.2 / 15.2 / 35 um top to bottom (1oz outer).
+* Plated holes: every plated hole is a VIA; the drill file's sizes (0.30 and 0.50 mm) are finished hole sizes, the fab's usual convention: do not change them. Via lands 0.70 and 0.90 mm as drawn (no annular-ring enlargement). Nominal barrel plating 18 um (the fab's published value). The four 3.2 mm holes are unplated (NPTH) mounting holes with no copper around them.
+* Every via is covered by solder mask on both sides in the Gerbers; ordered PLUGGED (insulating solder mask ink in the barrels, JLCPCB's 4-layer process): NOT filled with epoxy or copper, never open.
+* Do NOT modify copper: no teardrops, no copper thieving (each layer carries its own floating balancing copper), no filling or merging of copper gaps (same-net gaps of 0.25 mm or more are intentional), no added or removed via pads, inner-layer non-functional pads removed on purpose.
