@@ -1,0 +1,18 @@
+# Files under kit/ are byte-for-byte copies covered by SHA256SUMS.
+# Never let git normalise line endings or otherwise rewrite them.
+* -text
+
+# Fabrication outputs and generated board data: keep out of language stats and diffs.
+*.gbl linguist-generated -diff
+*.gbs linguist-generated -diff
+*.gbo linguist-generated -diff
+*.gtl linguist-generated -diff
+*.gts linguist-generated -diff
+*.gto linguist-generated -diff
+*.g1 linguist-generated -diff
+*.g2 linguist-generated -diff
+*.gm1 linguist-generated -diff
+*.drl linguist-generated -diff
+*.gbrjob linguist-generated
+*.kicad_pcb linguist-generated
+manifest.json linguist-generated

@@ -1,0 +1,12 @@
+# KiCad local/session files (created when a board is opened)
+*.kicad_prl
+*-backups/
+fp-info-cache
+\#auto_saved_files\#
+_autosave-*
+*.lck
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~

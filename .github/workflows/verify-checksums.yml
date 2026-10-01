@@ -1,0 +1,19 @@
+name: Verify checksums
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  sha256:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Every file under kit/ matches SHA256SUMS
+        run: sha256sum --check --strict SHA256SUMS
+      - name: No untracked additions under kit/
+        run: |
+          diff <(find kit -type f | sort) <(awk '{print $2}' SHA256SUMS | sort)

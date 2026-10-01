@@ -1,0 +1,61 @@
+(footprint "MountingHole_3.2mm"
+	(version 20241229)
+	(generator "pdnsim_synth")
+	(generator_version "1")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "85c2b39e-63af-42df-978a-5d218513ded9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.2mm"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "8f1f2aec-07ac-48aa-a544-9a6b2eab41fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c04eea1f-2c51-4ff2-a519-2b2e0653c760")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf22977c-a07e-4039-b0bb-2065405e06ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ce4e53ac-00b1-40d7-a000-7b080a435534")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,73 @@
+(footprint "ThicknessIsland_3.0x3.0mm"
+	(version 20241229)
+	(generator "pdnsim_synth")
+	(generator_version "1")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "eee0d64a-7a17-4833-a879-40fec7d15e8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ThicknessIsland_3.0x3.0mm"
+		(at 0 0)
+		(layer "F.Fab")
+		(uuid "a1a388bd-80b0-4914-bafc-d3e7c8bf9faf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a391902b-abba-4f0f-9e39-1f78cf429e77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e9bcb2d-46d6-4cf7-ba8f-e6f7fcd5b82b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5) (xy -1.5 -1.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "891f3789-ce31-4e9f-ae64-03127cbb293c")
+	)
+	(embedded_fonts no)
+)
